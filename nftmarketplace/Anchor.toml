@@ -1,0 +1,15 @@
+[programs.localnet]
+nftmarketplace = "ByH8qn8Jqz81NtVPXASdMFCmXW2zmt59YmRErPeVC5xE"
+
+[programs.devnet]
+nftmarketplace = "ECQQMZK923RriyyfkDmqB3TusM9gFD61aPFsAY3ZkRX8"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/home/mukund/.config/solana/id.json"
+
+[scripts]
+test = "mocha -t 1000000 tests/"
